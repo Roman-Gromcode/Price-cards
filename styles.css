@@ -1,39 +1,3 @@
-.color-card-1 {
-  background-color: #5bb189;
-}
-
-.color-card-2 {
-  background-color: #3a6ba5;
-}
-
-.color-card-3 {
-  background-color: #ec632a;
-}
-
-.check-card-1 {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
-}
-
-.check-card-2 {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
-}
-
-.check-card-3 {
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
-}
-
-.badge-card-1 {
-  display: none;
-}
-
-.badge-card-2 {
-  display: flex;
-}
-
-.badge-card-3 {
-  display: none;
-}
-
 .card {
   width: 380px;
   height: 770px;
@@ -101,8 +65,8 @@
 .card__options-list_item-check {
   width: 15px;
   height: 13px;
-  background-size: contain;
-  margin: 0 22px;
+  margin-left: 22px;
+  margin-right: 22px;
 }
 .card__button {
   width: 156px;
@@ -140,6 +104,30 @@ body {
 .cards {
   display: flex;
   gap: 18px;
+}
+
+.card-1 {
+  background-color: #5bb189;
+}
+
+.card-2 {
+  background-color: #3a6ba5;
+}
+
+.card-3 {
+  background-color: #ec632a;
+}
+
+.badge-1 {
+  display: none;
+}
+
+.badge-2 {
+  display: flex;
+}
+
+.badge-3 {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
