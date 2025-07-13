@@ -1,42 +1,7 @@
-@use 'colors';
-@use 'price-card';
+@use 'table';
+@use 'cards';
+@use 'variables';
+
 * {
 	box-sizing: border-box;
-}
-body {
-	display: flex;
-	align-items: center;
-	height: 100vh;
-	font-family: 'Montserrat', sans-serif;
-	color: colors.$text;
-}
-.table {
-	width: 1440px;
-	height: 1000px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: colors.$table;
-}
-.cards {
-	display: flex;
-	gap: 18px;
-}
-.card-1 {
-	background-color: colors.$card1;
-}
-.card-2 {
-	background-color: colors.$card2;
-}
-.card-3 {
-	background-color: colors.$card3;
-}
-.badge-1 {
-	display: none;
-}
-.badge-2 {
-	display: flex;
-}
-.badge-3 {
-	display: none;
 }

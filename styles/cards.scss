@@ -1,8 +1,8 @@
-@use 'colors';
+@use 'variables' as *;
 .card {
 	width: 380px;
 	height: 770px;
-	background-color: colors.$cards;
+	background-color: $gray;
 	box-shadow: 0px 6px 6px 0px #00000016;
 	text-align: center;
 	position: relative;
@@ -12,7 +12,7 @@
 		height: 25px;
 		top: 30px;
 		right: -30px;
-		background: colors.$badge;
+		background: $red;
 		justify-content: center;
 		align-items: center;
 		position: absolute;
@@ -41,6 +41,7 @@
 		align-items: center;
 		font-size: 55px;
 		font-weight: 700;
+		color: $white;
 	}
 	&__description {
 		margin: 40px 26px;
@@ -48,6 +49,7 @@
 		font-size: 15px;
 		line-height: 100%;
 	}
+
 	&__options-list {
 		margin: 0;
 		padding: 0;
@@ -57,14 +59,16 @@
 			align-items: center;
 			font-size: 15px;
 			font-weight: 300;
+
 			&:nth-child(odd) {
 				background-color: rgba(42, 52, 56, 0.5);
 			}
+
 			&-check {
 				width: 15px;
 				height: 13px;
-				margin-left: 22px;
-				margin-right: 22px;
+				margin: 0 22px;
+				mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='13' viewBox='0 0 15 13'%3E%3Cpath fill='black' d='M14.4391 0.610089C13.6912 -0.203363 12.4791 -0.203363 11.7312 0.610089L4.96143 7.97268L3.26874 6.13178C2.52086 5.31833 1.30879 5.31833 0.560908 6.13178C-0.186969 6.94524 -0.186969 8.26367 0.560908 9.07662L3.60727 12.3899C4.35515 13.2034 5.56722 13.2034 6.3151 12.3899L14.4391 3.55542C15.187 2.74197 15.187 1.42354 14.4391 0.610089Z'/%3E%3C/svg%3E");
 			}
 		}
 	}
@@ -77,6 +81,6 @@
 		border: none;
 		font-size: 14px;
 		font-weight: 400;
-		color: colors.$text;
+		color: $white;
 	}
 }

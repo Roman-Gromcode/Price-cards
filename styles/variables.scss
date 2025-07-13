@@ -1,0 +1,22 @@
+@use 'colors' as *;
+@forward 'colors';
+
+.color-card-1 {
+	background-color: $green;
+}
+.color-card-2 {
+	background-color: $blue;
+}
+.color-card-3 {
+	background-color: $orange;
+}
+
+.badge-card-1 {
+	display: none;
+}
+.badge-card-2 {
+	display: flex;
+}
+.badge-card-3 {
+	display: none;
+}
